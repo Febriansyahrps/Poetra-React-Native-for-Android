@@ -25,7 +25,7 @@ export default class App extends Component<Props> {
         <Text style={styles.welcome}>Masuk Pak AIC!</Text>
         <Text style={styles.welcome}>Nama:Febriansyah Rizqi Putra Setiyadi</Text>
 		<Text style={styles.welcome}>Kelas:XI RPL IV</Text>
-		<Text style={styles.welcome}>No:25</Text>
+		<Text style={styles.welcome}>No:11</Text>
 		<Image
           source={require('./7.png')}
           style= {{width:300, height:250}}/>
