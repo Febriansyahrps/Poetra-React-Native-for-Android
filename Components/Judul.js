@@ -5,16 +5,16 @@ class Judul extends React.Component
 {
 	render()
 	{
-		return(<Text style={kata.welcome}>Biodata</Text>)
+		return(<Text style={kata.welcome}>{this.props.title}</Text>)
 	}
 }
 
 const kata ={
   welcome: {
-    fontSize: 30,
+    fontSize: 20,
     color : '#f00',
     textAlign: 'center',
-    margin : 10,
+    margin : 5,
     }
 }
 export default Judul;

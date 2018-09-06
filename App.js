@@ -23,7 +23,9 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-    	<Judul/>
+    	<Judul title="BIODATA"/>
+    	<Judul title="LOGIN"/>
+    	<Judul title="FORM"/>
         <Text style={styles.welcome}>Masuk Pak AIC!</Text>
         <Text style={styles.welcome}>Nama:Febriansyah Rizqi Putra Setiyadi</Text>
 		<Text style={styles.welcome}>Kelas:XI RPL IV</Text>
@@ -44,12 +46,12 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#787878',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 15,
     textAlign: 'center',
-    margin: 10,
+    margin: 5,
     color :'#123456',
   },
  /* instructions: {
