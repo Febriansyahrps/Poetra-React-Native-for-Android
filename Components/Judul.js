@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text} from 'react-native';
 
-class Judul extends React.Component
+class Login extends React.Component
 {
 	render()
 	{
@@ -17,4 +17,4 @@ const kata ={
     margin : 5,
     }
 }
-export default Judul;
+export default Login;
